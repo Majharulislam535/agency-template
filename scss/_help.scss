@@ -1,0 +1,41 @@
+#help {
+    margin             : 50px 0;
+    padding            : 50px 0;
+    background-image   : url('../img/helpbg.png');
+    background-repeat  : no-repeat;
+    background-position: right center;
+    background-size    : cover;
+    margin             : 30px 0;
+
+    .help-section {
+        display        : flex;
+        justify-content: center;
+        align-items    : center;
+        flex-wrap      : wrap;
+        gap            : 40px;
+
+        .help-text {
+            flex-basis: 45%;
+
+            h2 {
+                font-size    : 30px;
+                color        : #072753;
+                margin-bottom: 15px;
+            }
+
+            p {
+                color        : #072753;
+                font-weight  : 200;
+                margin-bottom: 20px;
+            }
+        }
+
+        .help-img {
+            flex-basis: 45%;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

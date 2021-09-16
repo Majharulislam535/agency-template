@@ -1,0 +1,152 @@
+@media (max-width:1047px) {
+    header {
+        nav {
+            .logo {
+                font-size: 1.5rem;
+            }
+
+            .links {
+                a {
+                    &:not(:last-child) {
+                        margin-right: 1.625rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:991px) {
+    header {
+        nav {
+            .links {
+                display: none;
+            }
+
+            .btn-hide {
+                display: none;
+            }
+
+            .hamburger {
+                display: block;
+            }
+        }
+
+        .hero-section {
+            .hero-img {
+                img {
+                    width: 100%;
+                }
+            }
+        }
+
+    }
+
+}
+
+@media (max-width:768px) {
+    header {
+        &::before {
+            clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);
+        }
+
+        .hero-section {
+            .hero-text {
+                flex-basis: 100%;
+                text-align: center;
+                padding   : 30px;
+                order     : 2;
+            }
+
+            .hero-img {
+                flex-basis : 100%;
+                padding    : 40px;
+                padding-top: 0;
+                order      : 1;
+            }
+        }
+    }
+
+    #service {
+        .service-section {
+            .service {
+                flex-basis: 100% !important;
+                text-align: center;
+
+                .service-img {
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+
+    #help {
+        .help-section {
+
+            .help-text,
+            .help-img {
+                flex-basis: 100% !important;
+            }
+        }
+    }
+
+    #work {
+        .work-section {
+            .work-img {
+                flex-basis: 100% !important;
+            }
+
+            .work-text {
+                flex-basis: 100% !important;
+
+                input {
+                    width: 50% !important;
+                }
+            }
+        }
+    }
+
+    #project {
+        .text {
+            h1 {
+                font-size: 25px !important;
+            }
+
+            p {
+                font-size: 12px !important;
+            }
+        }
+
+        .project-section {
+            .project {
+                flex-basis: 100% !important;
+            }
+        }
+    }
+
+    #review {
+        .review-section {
+            .review {
+                .review-img {
+                    flex-basis: 100% !important;
+                }
+
+                .review-text {
+                    flex-basis: 100% !important;
+                }
+            }
+        }
+    }
+
+    footer {
+        .footer-section {
+
+            .footer,
+            .company,
+            .support,
+            .contact {
+                flex-basis: 100% !important;
+            }
+        }
+    }
+}

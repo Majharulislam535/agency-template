@@ -1,0 +1,123 @@
+footer {
+    margin    : 50px 0 0 0;
+    padding   : 50px 0 0 0;
+    background: #011021;
+
+    .footer-section {
+        display: flex;
+
+        align-items: center;
+        flex-wrap  : wrap;
+        gap        : 50px;
+
+        .footer {
+            flex-basis: 35%;
+
+            .logo {
+                display      : flex;
+                align-items  : center;
+                font-size    : 32px;
+                font-weight  : bold;
+                margin-bottom: 15px;
+                color        : white;
+
+                img {
+                    margin-right: 5px;
+                }
+            }
+
+            p {
+                font-size    : 15px;
+                font-weight  : 200;
+                margin-bottom: 15px;
+                color        : #A9B2BC;
+            }
+
+            h4 {
+                font-size    : 18px;
+                margin-bottom: 15px;
+                color        : white;
+            }
+
+            input {
+                width        : 60%;
+                padding      : 18px 36px;
+                border       : 1px solid gray;
+                border-radius: 5px;
+            }
+        }
+
+        .company,
+        .support,
+        .contact {
+            flex-basis: 15%;
+
+            h4 {
+                margin-bottom: 15px;
+                color        : white;
+            }
+
+            a {
+                display      : block;
+                margin-bottom: 15px;
+                font-size    : 15px;
+                font-weight  : 200;
+                color        : #A9B2BC;
+            }
+        }
+    }
+
+    hr {
+        margin       : 30px 0;
+        border-bottom: 1px solid #ffffff;
+    }
+
+    .social-media {
+        display        : flex;
+        align-items    : center;
+        justify-content: space-between;
+
+        .privacy {
+            a {
+                color       : #A9B2BC;
+                font-weight : 200;
+                margin-right: 10px;
+            }
+        }
+
+        .icons {
+            .fa-facebook-f {
+                background: #3A5897;
+            }
+
+            .fa-twitter {
+                background: #1DA0F1;
+            }
+
+            .fa-youtube {
+                background: #C4302B;
+            }
+
+            i {
+                cursor       : pointer;
+                color        : white;
+                width        : 38px;
+                height       : 38px;
+                line-height  : 38px;
+                border-radius: 50%;
+                margin-right : 15px;
+                text-align   : center;
+            }
+        }
+
+        .copy-right {
+            p {
+                color: #A9B2BC;
+
+                span {
+                    color: #FF9C00;
+                }
+            }
+        }
+    }
+}
